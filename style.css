@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main h1 {
+    font-size: 30px;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.board {
+    height: 210px;
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+
+.row {
+    border-bottom: 3px solid black;
+}
+
+.col{
+    border-right: 3px solid black;
+}
+
+.box{
+    height: 70px;
+    width:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+
+.winner{
+    background-color: rgb(220, 212, 212);
+    color: rgb(18, 212, 18);
+    
+}
+.choice{
+    white-space: nowrap;
+}
+button{
+    height: 25px;
+    width: 50px;
+}
